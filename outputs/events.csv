@@ -1,0 +1,15 @@
+﻿timestamp,router,vendor,severity,event_type,interface,message
+2026-10-24T09:00:00Z,CBI-AGG-1,Huawei,MAJOR,LINK_DOWN,GE0/0/2,Physical interface link down
+2026-10-24T09:01:00Z,RYG-EDGE-1,ZTE,MAJOR,LINK_DOWN,GE0/1/0,Peer-facing interface down
+2026-10-24T09:02:00Z,CBI-AGG-1,Huawei,MAJOR,LINK_DOWN,GE0/0/2,Repeat alarm from interface
+2026-10-24T09:03:00Z,BKK-CORE-1,Cisco,WARNING,ROUTE_CHANGE,Eth1/1,Alternative route selected in graph model
+2026-10-24T09:04:00Z,BKK-CORE-2,Juniper,INFO,ROUTE_CHANGE,xe-0/0/1,Transit path active
+2026-10-24T09:06:00Z,AYA-AGG-1,Nokia,WARNING,HIGH_UTILIZATION,1/1/2,Simulated link utilization 81 pct
+2026-10-24T09:08:00Z,CBI-AGG-1,Huawei,MAJOR,LINK_DOWN,GE0/0/2,Repeat alarm while down
+2026-10-24T09:10:00Z,RYG-EDGE-1,ZTE,INFO,ROUTE_CHANGE,GE0/1/1,Receiving via backup path
+2026-10-24T09:12:00Z,AYA-AGG-1,Nokia,MINOR,OPTICAL_WARNING,1/1/2,Fictional receive-power warning
+2026-10-24T09:15:00Z,CBI-AGG-1,Huawei,INFO,LINK_UP,GE0/0/2,Interface restored
+2026-10-24T09:16:00Z,RYG-EDGE-1,ZTE,INFO,LINK_UP,GE0/1/0,Peer-facing interface restored
+2026-10-24T09:17:00Z,BKK-CORE-1,Cisco,INFO,ROUTE_CHANGE,Eth1/1,Normal route restored in graph model
+2026-10-24T09:25:00Z,BKK-CORE-2,Juniper,MINOR,CPU_WARNING,xe-0/0/0,Temporary CPU threshold notice
+2026-10-24T09:27:00Z,BKK-CORE-2,Juniper,INFO,CPU_NORMAL,xe-0/0/0,CPU threshold normal

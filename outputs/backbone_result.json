@@ -1,0 +1,29 @@
+{
+  "scenario": "single-link-failure",
+  "source": "BKK-CORE-1",
+  "destination": "RYG-EDGE-1",
+  "failed_link": [
+    "CBI-AGG-1",
+    "RYG-EDGE-1"
+  ],
+  "before": {
+    "path": [
+      "BKK-CORE-1",
+      "CBI-AGG-1",
+      "RYG-EDGE-1"
+    ],
+    "total_cost": 20.0,
+    "reachable": true
+  },
+  "after": {
+    "path": [
+      "BKK-CORE-1",
+      "BKK-CORE-2",
+      "AYA-AGG-1",
+      "RYG-EDGE-1"
+    ],
+    "total_cost": 38.0,
+    "reachable": true
+  },
+  "interpretation": "Shortest path recomputed using abstract link costs; not BGP/OSPF convergence or measured failover time."
+}

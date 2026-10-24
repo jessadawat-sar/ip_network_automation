@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "BKK-CORE-1",
+      "vendor": "Cisco"
+    },
+    {
+      "id": "BKK-CORE-2",
+      "vendor": "Juniper"
+    },
+    {
+      "id": "CBI-AGG-1",
+      "vendor": "Huawei"
+    },
+    {
+      "id": "AYA-AGG-1",
+      "vendor": "Nokia"
+    },
+    {
+      "id": "RYG-EDGE-1",
+      "vendor": "ZTE"
+    }
+  ],
+  "links": [
+    {
+      "a": "BKK-CORE-1",
+      "b": "CBI-AGG-1",
+      "cost": 10,
+      "interface_a": "Eth1/1",
+      "interface_b": "GE0/0/1"
+    },
+    {
+      "a": "CBI-AGG-1",
+      "b": "RYG-EDGE-1",
+      "cost": 10,
+      "interface_a": "GE0/0/2",
+      "interface_b": "GE0/1/0"
+    },
+    {
+      "a": "BKK-CORE-1",
+      "b": "BKK-CORE-2",
+      "cost": 8,
+      "interface_a": "Eth1/2",
+      "interface_b": "xe-0/0/0"
+    },
+    {
+      "a": "BKK-CORE-2",
+      "b": "AYA-AGG-1",
+      "cost": 12,
+      "interface_a": "xe-0/0/1",
+      "interface_b": "1/1/1"
+    },
+    {
+      "a": "AYA-AGG-1",
+      "b": "RYG-EDGE-1",
+      "cost": 18,
+      "interface_a": "1/1/2",
+      "interface_b": "GE0/1/1"
+    }
+  ]
+}
